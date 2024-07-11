@@ -61,9 +61,9 @@ namespace Smudge_Timer
         {
             if (timerActive == true)
             {
-                timeMillisecond = timeMillisecond + 1.6666666666666666666666666666667;
+                timeMillisecond = timeMillisecond + 1.55;
 
-                if(timeMillisecond >= 99)
+                if(timeMillisecond > 99)
                 {
                     timeMillisecond = 0;
                     timeSecond++;
@@ -121,10 +121,6 @@ namespace Smudge_Timer
                         ResetTime();
                         smudgedatLbl.Text = "Smudged At: " + DateTime.Now.ToString("mm") + "m" + DateTime.Now.ToString("ss") + "s";
                         timerActive = true;
-                        for (int i = 0; i < 4; i++)
-                        {
-                            timeSecond--;
-                        }
                     }
                     if (m.WParam.ToString() == ghk3.GetHashCode().ToString())
                     {
