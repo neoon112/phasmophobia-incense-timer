@@ -1,4 +1,4 @@
 Incense timer for Phasmophobia.
 
 Virustotal (beware of false positives from like 1 or 2 AVs):
-https://www.virustotal.com/gui/file/8d096b55cc6849e034286e0b3fe47a0807e49e3911bde26797b7cdbdeddbf5bc
+https://www.virustotal.com/gui/file/eed0b1b7f3df0ee6b0a13317ca57d97f8c3ac2992ab03f6827b0dcab374503c1
