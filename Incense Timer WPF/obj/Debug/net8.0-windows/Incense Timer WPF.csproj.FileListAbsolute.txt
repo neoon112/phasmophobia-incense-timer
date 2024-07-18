@@ -1,0 +1,25 @@
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\Incense Timer WPF.exe
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\Incense Timer WPF.deps.json
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\Incense Timer WPF.runtimeconfig.json
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\Incense Timer WPF.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.csproj.AssemblyReference.cache
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF_MarkupCompile.cache
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF_MarkupCompile.lref
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\App.baml
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.g.resources
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.AssemblyInfoInputs.cache
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.AssemblyInfo.cs
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.csproj.CoreCompileInputs.cache
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense .EEF75379.Up2Date
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\refint\Incense Timer WPF.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF.genruntimeconfig.cache
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\ref\Incense Timer WPF.dll
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\Incense Timer WPF_Content.g.cs

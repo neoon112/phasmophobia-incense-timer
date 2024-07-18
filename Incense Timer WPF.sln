@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Incense Timer WPF", "Incense Timer WPF\Incense Timer WPF.csproj", "{9AA160E0-6888-4E12-AD32-126A6B759402}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AA160E0-6888-4E12-AD32-126A6B759402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA160E0-6888-4E12-AD32-126A6B759402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA160E0-6888-4E12-AD32-126A6B759402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA160E0-6888-4E12-AD32-126A6B759402}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {345BF3B4-709E-4FDB-9288-2C65E5EE6942}
+	EndGlobalSection
+EndGlobal

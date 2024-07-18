@@ -1,0 +1,1 @@
+C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\bin\Release\net8.0-windows\publish\win-x64\Incense Timer WPF.exe
