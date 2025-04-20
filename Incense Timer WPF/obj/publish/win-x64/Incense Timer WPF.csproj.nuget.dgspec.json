@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj": {}
+    "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj": {
+    "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj",
+        "projectUniqueName": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj",
         "projectName": "Incense Timer WPF",
-        "projectPath": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj",
-        "packagesPath": "C:\\Users\\NeonFox\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\obj\\publish\\win-x64\\",
+        "projectPath": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj",
+        "packagesPath": "C:\\Users\\TomasStather\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\obj\\publish\\win-x64\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\NeonFox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TomasStather\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -52,7 +52,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.7, )",
+              "version": "[8.0.8, )",
               "autoReferenced": true
             }
           },
@@ -70,19 +70,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.8, 8.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.8, 8.0.8]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.8, 8.0.8]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.7, 8.0.7]"
+              "version": "[8.0.8, 8.0.8]"
             }
           ],
           "frameworkReferences": {
@@ -93,7 +93,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

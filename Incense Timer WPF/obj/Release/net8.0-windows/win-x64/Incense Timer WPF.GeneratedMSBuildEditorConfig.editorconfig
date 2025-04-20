@@ -12,6 +12,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Incense_Timer_WPF
-build_property.ProjectDir = C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\
+build_property.ProjectDir = C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

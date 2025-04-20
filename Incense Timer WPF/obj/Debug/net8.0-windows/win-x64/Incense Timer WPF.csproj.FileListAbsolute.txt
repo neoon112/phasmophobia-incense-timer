@@ -27,3 +27,33 @@ C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8
 C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\refint\Incense Timer WPF.dll
 C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.genruntimeconfig.cache
 C:\Users\NeonFox\source\repos\Incense Timer WPF\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\ref\Incense Timer WPF.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\Incense Timer WPF.exe
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\Incense Timer WPF.deps.json
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\Incense Timer WPF.runtimeconfig.json
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\Incense Timer WPF.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\MaterialDesignColors.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\MaterialDesignThemes.Wpf.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Debug\net8.0-windows\win-x64\Microsoft.Xaml.Behaviors.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.csproj.AssemblyReference.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\MainWindow.g.cs
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Settings.g.cs
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\App.g.cs
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF_Content.g.cs
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF_MarkupCompile.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF_MarkupCompile.lref
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\App.baml
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\MainWindow.baml
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Settings.baml
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.g.resources
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense_Timer_WPF.Properties.Resources.resources
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.csproj.GenerateResource.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.AssemblyInfoInputs.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.AssemblyInfo.cs
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.csproj.CoreCompileInputs.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.sourcelink.json
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense .EEF75379.Up2Date
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\refint\Incense Timer WPF.dll
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\Incense Timer WPF.genruntimeconfig.cache
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\obj\Debug\net8.0-windows\win-x64\ref\Incense Timer WPF.dll

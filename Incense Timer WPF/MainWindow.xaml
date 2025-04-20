@@ -1,12 +1,12 @@
 ﻿<Window x:Class="Incense_Timer_WPF.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     DataContext="{Binding RelativeSource={RelativeSource Self}}"
 	xmlns:System="clr-namespace:System;assembly=mscorlib" 
     mc:Ignorable="d"
-    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
     xmlns:local="clr-namespace:Incense_Timer_WPF"
 
         Title="Incense Timer" WindowStartupLocation="CenterScreen" Height="255" Width="585" WindowStyle="None" AllowsTransparency="True" Background="Transparent" ResizeMode="NoResize" Icon="/Images/LIGHTLIGHT.png" Closing="Window_Closing">
@@ -27,17 +27,20 @@
         </Border>
         <Border Margin="0,57,390,0" Background="#FF1F1E44" CornerRadius="0,0,0,20">
             <Grid>
-                <Label Content="Ghosts" Margin="6,3,61,154" Foreground="White" FontFamily="Nirmala UI Semilight" FontSize="30"/>
-                <Button x:Name="questionButton" Style="{StaticResource MaterialDesignRaisedButton}" Foreground="White" Content="?" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="153,0,0,0" VerticalAlignment="Top" Height="33" Width="42" Click="questionButton_Click" FontSize="20">
+                <Label Content="Ghosts" Margin="0,10,0,147" Foreground="White" FontFamily="Nirmala UI Semilight" FontSize="30" HorizontalAlignment="Center"/>
+                <Button x:Name="questionButton" Style="{StaticResource MaterialDesignRaisedButton}" Foreground="White" Content="?" Background="Transparent" BorderBrush="Transparent" HorizontalAlignment="Left" Margin="154,0,0,0" VerticalAlignment="Top" Height="30" Width="41" Click="questionButton_Click" FontSize="20" RenderTransformOrigin="0.5,0.5">
+                    <Button.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform AngleY="0"/>
+                            <RotateTransform/>
+                            <TranslateTransform Y="0"/>
+                        </TransformGroup>
+                    </Button.RenderTransform>
                 </Button>
-                <Label x:Name="demonLabel" Content="Demon" Foreground="Red" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="25" Margin="49,53,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="regularLabel" Content="Regular" Foreground="Red" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="25" Margin="48,95,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="spiritLabel" Content="Spirit" Foreground="Red" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="25" Margin="48,134,0,0" VerticalAlignment="Top"/>
-                <Label Content="●" Foreground="White" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="17" Margin="30,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.684,0.692"/>
-                <Label Content="●" Foreground="White" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="17" Margin="30,102,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.938,0.716"/>
-                <Label Content="●" Foreground="White" HorizontalAlignment="Left" FontFamily="Nirmala UI Semilight" FontSize="17" Margin="30,140,0,0" VerticalAlignment="Top"/>
-                <Label x:Name="scratchamophobiaLabel" Content="Scratchamophobia.com.au" Cursor="Hand" Foreground="#FF232169" FontSize="11" HorizontalAlignment="Left" Margin="60,177,0,0" VerticalAlignment="Top" MouseDown="scratchamophobiaLabel_MouseDown"/>
-
+                <Label x:Name="demonLabel" Content="Demon" Foreground="Red" HorizontalAlignment="Center" FontFamily="Nirmala UI Semilight" FontSize="20" Margin="0,62,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="regularLabel" Content="Regular" Foreground="Red" HorizontalAlignment="Center" FontFamily="Nirmala UI Semilight" FontSize="20" VerticalAlignment="Top" Margin="0,98,0,0"/>
+                <Label x:Name="spiritLabel" Content="Spirit" Foreground="Red" HorizontalAlignment="Center" FontFamily="Nirmala UI Semilight" FontSize="20" Margin="0,134,0,0" VerticalAlignment="Top"/>
             </Grid>
         </Border>
         <Border Background="#FF181E36" CornerRadius="20,20,0,0" Margin="0,0,0,198" MouseDown="movePanel_MouseDown">
@@ -60,5 +63,6 @@
                 <ImageBrush ImageSource="/Images/minimize.png"/>
             </Button.Background>
         </Button>
+
     </Grid>
 </Window>

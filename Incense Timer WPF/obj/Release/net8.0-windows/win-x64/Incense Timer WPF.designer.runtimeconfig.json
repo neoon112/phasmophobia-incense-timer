@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\NeonFox\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\NeonFox\\.nuget\\packages"
+      "C:\\Users\\TomasStather\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\TomasStather\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

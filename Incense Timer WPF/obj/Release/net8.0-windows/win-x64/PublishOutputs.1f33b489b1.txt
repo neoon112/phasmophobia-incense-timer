@@ -1,0 +1,1 @@
+C:\Users\TomasStather\source\repos\neoon112\phasmophobia-incense-timer\Incense Timer WPF\bin\Release\net8.0-windows\publish\win-x64\Incense Timer WPF.exe

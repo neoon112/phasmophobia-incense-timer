@@ -1,47 +1,79 @@
-﻿using System.Windows;
+﻿using System;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Media.Animation;
 using Incense_Timer_WPF.Classes;
 
 namespace Incense_Timer_WPF
 {
     public partial class Settings : Window
     {
+        private TextBox activeKeybindTextBox;
+
         public Settings()
         {
             InitializeComponent();
 
-            scratchamophobiaCheckbox.IsChecked = true; // making sure scratchamophobia checkbox is checked
+            clockLayoutCheckbox.IsChecked = MainWindow.registryKeyLocation.GetValue("ClockLayout")?.ToString() == "true";
+            topmostCheckbox.IsChecked = MainWindow.registryKeyLocation.GetValue("Topmost")?.ToString() == "true";
+            soundsCheckbox.IsChecked = MainWindow.registryKeyLocation.GetValue("Sounds")?.ToString() == "true";
 
-            //load checkboxes keys
-            if (MainWindow.registryKeyLocation.GetValue("ClockLayout").ToString() == "true")
-            {
-                clockLayoutCheckbox.IsChecked = true;
-            }
-            else
-            {
-                clockLayoutCheckbox.IsChecked = false;
-            }
+            StartKeybind_textBox.Text = MainWindow.StartKey.ToString();
+            StopKeybind_textBox.Text = MainWindow.StopKey.ToString();
+            ResetKeybind_textBox.Text = MainWindow.ResetKey.ToString();
 
-            if (MainWindow.registryKeyLocation.GetValue("Topmost").ToString() == "true")
-            {
-                topmostCheckbox.IsChecked = true;
-            }
-            else
-            {
-                topmostCheckbox.IsChecked = false;
-            }
+            StartKeybind_textBox.PreviewMouseDown += KeybindTextBox_MouseDown;
+            StopKeybind_textBox.PreviewMouseDown += KeybindTextBox_MouseDown;
+            ResetKeybind_textBox.PreviewMouseDown += KeybindTextBox_MouseDown;
 
-            if (MainWindow.registryKeyLocation.GetValue("Sounds").ToString() == "true")
-            {
-                soundsCheckbox.IsChecked = true;
-            }
-            else
-            {
-                soundsCheckbox.IsChecked = false;
-            }
-            //-----
+            StartKeybind_textBox.PreviewKeyUp += KeybindTextBox_KeyUp;
+            StopKeybind_textBox.PreviewKeyUp += KeybindTextBox_KeyUp;
+            ResetKeybind_textBox.PreviewKeyUp += KeybindTextBox_KeyUp;
 
             Animations.Fade(main_grid);
+        }
+
+        private void KeybindTextBox_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton != MouseButton.Left) return;
+            activeKeybindTextBox = (TextBox)sender;
+            activeKeybindTextBox.Text = "...";
+            activeKeybindTextBox.Focus();
+            e.Handled = true;
+        }
+
+        private void KeybindTextBox_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (activeKeybindTextBox == null) return;
+
+            var key = e.Key == Key.System ? e.SystemKey : e.Key;
+            var keyName = key.ToString();
+            activeKeybindTextBox.Text = keyName;
+
+            var reg = MainWindow.registryKeyLocation;
+            if (activeKeybindTextBox == StartKeybind_textBox)
+            {
+                reg.SetValue("StartKey", keyName);
+                MainWindow.StartKey = key;
+            }
+            else if (activeKeybindTextBox == StopKeybind_textBox)
+            {
+                reg.SetValue("StopKey", keyName);
+                MainWindow.StopKey = key;
+            }
+            else if (activeKeybindTextBox == ResetKeybind_textBox)
+            {
+                reg.SetValue("ResetKey", keyName);
+                MainWindow.ResetKey = key;
+            }
+
+            activeKeybindTextBox = null;
+            e.Handled = true;
+
+            if (Application.Current.MainWindow is MainWindow main)
+                main.SetupHotkeys();
         }
 
         private async void exitButton_Click(object sender, RoutedEventArgs e)
@@ -49,21 +81,13 @@ namespace Incense_Timer_WPF
             Animations.FadeOut(main_grid);
             await Task.Delay(250);
             MainWindow.settingsMenu = false;
-            this.Close();
-        }
-
-        private void scratchamophobiaCheckbox_Unchecked(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("No. Getting. Rid. Of. Scratchamophobia.", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
-            scratchamophobiaCheckbox.IsChecked = true;
+            Close();
         }
 
         private void Border_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.ChangedButton == MouseButton.Left)
-            {
-                this.DragMove();
-            }
+                DragMove();
         }
 
         private void topmostCheckbox_Checked(object sender, RoutedEventArgs e)
@@ -104,6 +128,25 @@ namespace Incense_Timer_WPF
         {
             MainWindow.soundEffects = false;
             MainWindow.registryKeyLocation.SetValue("Sounds", "false");
+        }
+
+        private void resetKeyBindButton_Click(object sender, RoutedEventArgs e)
+        {
+            var reg = MainWindow.registryKeyLocation;
+            reg.SetValue("StartKey", "f6");
+            MainWindow.StartKey = Key.F6;
+            StartKeybind_textBox.Text = "F6";
+
+            reg.SetValue("StopKey", "f7");
+            MainWindow.StopKey = Key.F7;
+            StopKeybind_textBox.Text = "F7";
+
+            reg.SetValue("ResetKey", "f8");
+            MainWindow.ResetKey = Key.F8;
+            ResetKeybind_textBox.Text = "F8";
+
+            if (Application.Current.MainWindow is MainWindow main)
+                main.SetupHotkeys();
         }
     }
 }

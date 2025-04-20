@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Incense Timer WPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aef48acfe1a096b632f766ff0abf98d83450f2b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Incense Timer WPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Incense Timer WPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

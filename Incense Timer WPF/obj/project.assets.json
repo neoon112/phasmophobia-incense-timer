@@ -35,7 +35,7 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.7": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -92,7 +92,7 @@
           "build/MaterialDesignThemes.targets": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.7": {
+      "Microsoft.NET.ILLink.Tasks/8.0.8": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -179,10 +179,10 @@
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.7": {
-      "sha512": "iI52ptEKby2ymQ6B7h4TWbFmm85T4VvLgc/HvS45Yr3lgi4IIFbQtjON3bQbX/Vc94jXNSLvrDOp5Kh7SJyFYQ==",
+    "Microsoft.NET.ILLink.Tasks/8.0.8": {
+      "sha512": "P8wR6MUWwYXIjPJuBaZgo5zlI/GWI6QEAo6NyVIbPefa9CCkohYu7dP2rD/mrqnjEqfRHyl+h9VZrDoGpELqYg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.7",
+      "path": "microsoft.net.illink.tasks/8.0.8",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -196,7 +196,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.7.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.8.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -259,23 +259,23 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "MaterialDesignThemes >= 5.1.0",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.7"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.8"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\NeonFox\\.nuget\\packages\\": {}
+    "C:\\Users\\TomasStather\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj",
+      "projectUniqueName": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj",
       "projectName": "Incense Timer WPF",
-      "projectPath": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\Incense Timer WPF.csproj",
-      "packagesPath": "C:\\Users\\NeonFox\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\NeonFox\\source\\repos\\Incense Timer WPF\\Incense Timer WPF\\obj\\",
+      "projectPath": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Incense Timer WPF.csproj",
+      "packagesPath": "C:\\Users\\TomasStather\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\NeonFox\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TomasStather\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -313,7 +313,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.7, )",
+            "version": "[8.0.8, )",
             "autoReferenced": true
           }
         },
@@ -331,19 +331,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.8, 8.0.8]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.8, 8.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -354,7 +354,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

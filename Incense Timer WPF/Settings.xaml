@@ -1,29 +1,36 @@
 ﻿<Window x:Class="Incense_Timer_WPF.Settings"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Incense_Timer_WPF"
         mc:Ignorable="d"
-        Title="Settings" Height="306" Width="253" WindowStyle="None" AllowsTransparency="True" Icon="/Images/LIGHTLIGHT.png" Background="Transparent" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Settings" Height="306" Width="306" WindowStyle="None" AllowsTransparency="True" Icon="/Images/LIGHTLIGHT.png" Background="Transparent" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid x:Name="main_grid" >
         <Border BorderBrush="Transparent" Background="#FF24263F" CornerRadius="20">
             <Grid Margin="0,0,0,0">
                 <Grid>
-                    <CheckBox x:Name="topmostCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" Content="Topmost" IsChecked="False" Foreground="White" Background="#FF4F73CC" Margin="0,98,0,0" VerticalAlignment="Top" Height="30" Width="99" HorizontalAlignment="Center" Checked="topmostCheckbox_Checked" Unchecked="topmostCheckbox_Unchecked"/>
+                    <CheckBox x:Name="topmostCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" Content="Topmost" IsChecked="False" Foreground="White" Background="#FF4F73CC" Margin="30,98,0,0" VerticalAlignment="Top" Height="30" Width="115" Checked="topmostCheckbox_Checked" Unchecked="topmostCheckbox_Unchecked"/>
                     <Label Content="Main" FontFamily="Nirmala UI Semilight" FontSize="23.25" Foreground="White" HorizontalAlignment="Center" Margin="0,54,0,0" VerticalAlignment="Top"/>
-                    <Label Content="Other" FontFamily="Nirmala UI Semilight" FontSize="23.25" Foreground="White" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top"/>
-                    <CheckBox x:Name="clockLayoutCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" Content="Clock Layout" IsChecked="False" Foreground="White" Background="#FF4F73CC" VerticalAlignment="Center" Height="30" Width="121" Checked="clockLayoutCheckbox_Checked" Unchecked="clockLayoutCheckbox_Unchecked" HorizontalAlignment="Center"/>
-                    <CheckBox x:Name="scratchamophobiaCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" Content="Scratchamophobia" IsChecked="True" Foreground="White" Background="#FF4F73CC" Margin="0,255,0,0" VerticalAlignment="Top" Height="30" Width="147" Unchecked="scratchamophobiaCheckbox_Unchecked" HorizontalAlignment="Center" BorderBrush="#FF707070"/>
-                    <CheckBox x:Name="soundsCheckbox" Content="Sounds" Foreground="White" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" IsChecked="False" Background="#FF4F73CC" Margin="0,213,0,61" HorizontalAlignment="Center" Width="92" Checked="soundsCheckbox_Checked" Unchecked="soundsCheckbox_Unchecked"></CheckBox>
+                    <CheckBox x:Name="clockLayoutCheckbox" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" Content="Clock Layout" IsChecked="False" Foreground="White" Background="#FF4F73CC" VerticalAlignment="Center" Height="30" Width="115" Checked="clockLayoutCheckbox_Checked" Unchecked="clockLayoutCheckbox_Unchecked" Margin="30,0,0,0"/>
+                    <CheckBox x:Name="soundsCheckbox" Content="Sounds" Foreground="White" Style="{StaticResource MaterialDesignFilterChipOutlineCheckBox}" BorderBrush="#FF707070" IsChecked="False" Background="#FF4F73CC" Margin="164,98,0,178" Width="115" Checked="soundsCheckbox_Checked" Unchecked="soundsCheckbox_Unchecked" Height="30"/>
+                    <Label FontFamily="Nirmala UI Semilight"  Content="Keybinds" FontSize="23.25" Foreground="White" HorizontalAlignment="Center" Margin="0,173,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="StartKeybind_textBox" Style="{StaticResource MaterialDesignFloatingHintTextBox}" IsReadOnly="True" Margin="10,237,208,0"  BorderBrush="#FF707070" Foreground="White" VerticalAlignment="Top" Height="34" TextAlignment="Center"/>
+                    <Label FontFamily="Nirmala UI Semilight" Content="Start Keybind" FontSize="10" Foreground="White" HorizontalAlignment="Left" Margin="20,216,0,0" VerticalAlignment="Top" Width="68" Height="21"/>
+                    <TextBox x:Name="StopKeybind_textBox" Style="{StaticResource MaterialDesignFloatingHintTextBox}" IsReadOnly="True" Margin="109,237,109,0"  BorderBrush="#FF707070" Foreground="White" VerticalAlignment="Top" Height="34" TextAlignment="Center"/>
+                    <Label FontFamily="Nirmala UI Semilight" Content="Stop Keybind" FontSize="10" Foreground="White" HorizontalAlignment="Center" Margin="0,216,0,0" VerticalAlignment="Top" Width="68" Height="21"/>
+                    <TextBox x:Name="ResetKeybind_textBox" Style="{StaticResource MaterialDesignFloatingHintTextBox}" IsReadOnly="True" Margin="209,237,9,0"  BorderBrush="#FF707070" Foreground="White" VerticalAlignment="Top" Height="34" TextAlignment="Center"/>
+                    <Label FontFamily="Nirmala UI Semilight" Content="Reset Keybind" FontSize="10" Foreground="White" HorizontalAlignment="Left" Margin="219,216,0,0" VerticalAlignment="Top" Width="68" Height="21"/>
+                    <Button x:Name="resetKeyBindButton" materialDesign:ButtonAssist.CornerRadius="17" FontFamily="Nirmala UI Semilight" Content="Reset Keybinds" FontSize="13" Height="30" Style="{StaticResource MaterialDesignOutlinedButton}" BorderBrush="#FF707070" Foreground="White" Margin="164,138,27,138" Click="resetKeyBindButton_Click" Background="Transparent" Width="115"/>
                 </Grid>
 
                 <Grid Margin="0,0,0,332">
                     <Border BorderBrush="Transparent" Background="#FF181E36" CornerRadius="20,20,0,0" Margin="0,0,0,-53" MouseDown="Border_MouseDown">
                         <Grid>
-                            <Image Source="/Images/LIGHTLIGHT.png" Margin="13,-4,207,-3"/>
-                            <Label Content="Settings" FontFamily="Nirmala UI Semilight" FontSize="20" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="47,0,0,0" VerticalAlignment="Center" Height="38" Width="82"/>
-                            <Button Content="" Margin="205,11,17,11" Width="31" Height="31" BorderBrush="Transparent" Click="exitButton_Click">
+                            <Image Source="/Images/LIGHTLIGHT.png" Margin="15,-3,259,-4"/>
+                            <Label Content="Settings" FontFamily="Nirmala UI Semilight" FontSize="19" Background="Transparent" Foreground="White" HorizontalAlignment="Left" Margin="52,11,0,0" VerticalAlignment="Top" Height="38" Width="82"/>
+                            <Button Content="" Margin="258,12,17,10" Width="31" Height="31" BorderBrush="Transparent" Click="exitButton_Click">
                                 <Button.Background>
                                     <ImageBrush ImageSource="/Images/close.png"/>
                                 </Button.Background>
