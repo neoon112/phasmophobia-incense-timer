@@ -21,7 +21,6 @@ namespace Incense_Timer_WPF
         public static RegistryKey registryKeyLocation = Registry.CurrentUser.CreateSubKey(@"SOFTWARE\Incense Timer WPF");
         //-----
 
-
         SoundPlayer newGhostCanHunt = new SoundPlayer();
         public static SoundPlayer positiveSound = new SoundPlayer();
         SoundPlayer negativeSound = new SoundPlayer();
@@ -70,7 +69,6 @@ namespace Incense_Timer_WPF
                 if (sw.IsRunning == false && soundEffects == true || clockLayout == true && soundEffects == true)
                 {
                     startSound.Play();
-                }
                 sw.Start();
                 dt.Start();
             });
@@ -142,19 +140,6 @@ namespace Incense_Timer_WPF
                 registryKeyLocation.SetValue("Sounds", "true");
                 soundEffects = true;
             }
-            else
-            {
-                if (registryKeyLocation.GetValue("Sounds").ToString() == "true")
-                {
-                    soundEffects = true;
-                }
-                else
-                {
-                    soundEffects = false;
-                }
-            }
-            //-----
-        }
 
         DispatcherTimer checksTimer = new DispatcherTimer();
 
