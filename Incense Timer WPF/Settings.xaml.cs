@@ -108,14 +108,26 @@ namespace Incense_Timer_WPF
 
         private void clockLayoutCheckbox_Checked(object sender, RoutedEventArgs e)
         {
-            MainWindow.clockLayout = true;
-            MainWindow.registryKeyLocation.SetValue("ClockLayout", "true");
+            if (MainWindow.registryKeyLocation.GetValue("ClockLayout")?.ToString() == "false")
+            {
+                MainWindow.clockLayout = true;
+                MainWindow.registryKeyLocation.SetValue("ClockLayout", "true");
+                ((MainWindow)Application.Current.MainWindow).resetSmudgedAtLabel();
+                MainWindow.sw.Reset();
+                ((MainWindow)Application.Current.MainWindow).checksTimer_Tick(this, EventArgs.Empty);
+            }
         }
 
         private void clockLayoutCheckbox_Unchecked(object sender, RoutedEventArgs e)
         {
-            MainWindow.clockLayout = false;
-            MainWindow.registryKeyLocation.SetValue("ClockLayout", "false");
+            if (MainWindow.registryKeyLocation.GetValue("ClockLayout")?.ToString() == "true")
+            {
+                MainWindow.clockLayout = false;
+                MainWindow.registryKeyLocation.SetValue("ClockLayout", "false");
+                MainWindow.sw.Reset();
+                ((MainWindow)Application.Current.MainWindow).checksTimer_Tick(this, EventArgs.Empty);
+                ((MainWindow)Application.Current.MainWindow).resetTimeLabel();
+            }
         }
 
         private void soundsCheckbox_Checked(object sender, RoutedEventArgs e)

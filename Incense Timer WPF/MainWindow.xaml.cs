@@ -128,9 +128,19 @@ namespace Incense_Timer_WPF
             });
         }
 
-        DispatcherTimer checksTimer = new DispatcherTimer();
+        public void resetTimeLabel()
+        {
+            timeLabel.Text = "00:00.00";
+        }
 
-        void checksTimer_Tick(object sender, EventArgs e)
+        public void resetSmudgedAtLabel()
+        {
+            smudgedatLabel.Text = "Smudged at: 00m 00s";
+        }
+
+        public static DispatcherTimer checksTimer = new DispatcherTimer();
+
+        public void checksTimer_Tick(object sender, EventArgs e)
         {
             if (clockLayout && !smudgedatLabel.IsVisible)
                 smudgedatLabel.Visibility = Visibility.Visible;
@@ -247,7 +257,7 @@ namespace Incense_Timer_WPF
             }
         }
 
-        private void resetButton_Click(object sender, RoutedEventArgs e)
+        public void resetButton_Click(object sender, RoutedEventArgs e)
         {
             sw.Reset();
             if (clockLayout)

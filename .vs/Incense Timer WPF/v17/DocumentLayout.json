@@ -1,12 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{9AA160E0-6888-4E12-AD32-126A6B759402}|Incense Timer WPF\\Incense Timer WPF.csproj|c:\\users\\tomasstather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\incense timer wpf\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AA160E0-6888-4E12-AD32-126A6B759402}|Incense Timer WPF\\Incense Timer WPF.csproj|solutionrelative:incense timer wpf\\settings.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\TomasStather\\OneDrive - NebulaTeam\\Documents\\GitHub\\phasmophobia-incense-timer\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,19 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Settings.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Settings.xaml.cs",
-              "RelativeDocumentMoniker": "Incense Timer WPF\\Settings.xaml.cs",
-              "ToolTip": "C:\\Users\\TomasStather\\source\\repos\\neoon112\\phasmophobia-incense-timer\\Incense Timer WPF\\Settings.xaml.cs",
-              "RelativeToolTip": "Incense Timer WPF\\Settings.xaml.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T10:36:37.885Z",
-              "EditorCaption": ""
             }
           ]
         }
