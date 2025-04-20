@@ -7,7 +7,7 @@ Timer Layout:
 ![Incense_Timer_WPF_0UvXCtEEU8](https://github.com/user-attachments/assets/03174145-ba78-4029-b779-5100b9872b9c)
 
 Clock Layout:
-![Incense_Timer_WPF_7m7YlDbWJ1](https://github.com/user-attachments/assets/69d95e9e-54c2-4f5b-9d68-5de44f831931)
+![image](https://github.com/user-attachments/assets/7b65068b-3bad-40b9-ad3d-408d3866d2d9)
 
 Settings Menu:
-![Incense_Timer_WPF_tJyLRYhjWt](https://github.com/user-attachments/assets/2984d4b4-e7a6-497c-b8ac-5a29ce0d9550)
+![image](https://github.com/user-attachments/assets/ea82a4d9-1a1e-4b69-8d3a-dc37325889f7)
